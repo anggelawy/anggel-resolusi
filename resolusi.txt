@@ -1,0 +1,3 @@
+Resolusi Test Git
+- Bisa memahami git
+- Bisa menggunaka git di console
