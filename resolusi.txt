@@ -1,3 +1,4 @@
 Resolusi Test Git
 - Bisa memahami git
 - Bisa menggunaka git di console
+- Bisa membuat aplikasi menggunakan gitu dengan cara push dan pull
