@@ -1,0 +1,3 @@
+Goals tahun ini
+1. Menguasai bahasa pemrograman golang
+2. Menggunakan gin-gonic
