@@ -3,3 +3,4 @@ Goals tahun ini
 2. Menggunakan gin-gonic
 3. Membuat dengan visual studio code
 4. Fundamental Blockchain
+5. Coba bahasa R
