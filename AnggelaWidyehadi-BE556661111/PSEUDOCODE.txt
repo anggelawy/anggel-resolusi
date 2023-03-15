@@ -1,5 +1,4 @@
-PSEUDOCODE APLIKASI TO DO LIST
-
+PSEUDOCODE
 READ AND WRITE "Tambahtugas" with string
 READ AND WRITE "Judul" with string
 READ AND WRITE "Isi" with string	
@@ -9,38 +8,38 @@ READ AND WRITE "Hapustugas" with string
 READ AND WRITE "stillhere" with boolean
 
 SET "stillhere" with TRUE
-WHILE “stillhere” equal TRUE
-	DO “Tampiltugas”
-		IF “Tambahtugas” equal TRUE
-			STORE “Judul”
-			STORE “Isi”
-			PRINT “Simpan Data? Ya/Tidak”
-				IF jawaban == “Ya”
-					PRINT “Hasiltambah”
-				BACK to SHOW “Tampiltugas”
+WHILE â€œstillhereâ€ equal TRUE
+	DO â€œTampiltugasâ€
+		IF â€œTambahtugasâ€ equal TRUE
+			STORE â€œJudulâ€
+			STORE â€œIsiâ€
+			PRINT â€œSimpan Data? Ya/Tidakâ€
+				IF jawaban == â€œYaâ€
+					PRINT â€œHasiltambahâ€
+				BACK to SHOW â€œTampiltugasâ€
 				ELSE
 					BACK to Confirmation	
 				ENDIF
 			ELSE 
-       		IF “Hapustugas” equal TRUE
-				PRINT “Anda Ingin Menghapus Tugas?”
-					IF jawaban == “Ya”
-					SHOW “Detail Tugas”
-					PRINT “Anda Yakin Menghapus tugas ini?
-					IF jawaban == “Ya”
-					PRINT “Menghapus Tugas”
-				BACK to SHOW “Tampiltugas”
+IF â€œHapustugasâ€ equal TRUE
+				PRINT â€œAnda Ingin Menghapus Tugas?â€
+					IF jawaban == â€œYaâ€
+					SHOW â€œDetail Tugasâ€
+					PRINT â€œAnda Yakin Menghapus tugas ini?
+					IF jawaban == â€œYaâ€
+					PRINT â€œMenghapus Tugasâ€
+				BACK to SHOW â€œTampiltugasâ€
 				ELSE
-			BACK to SHOW “Tampiltugas”
-       		ENDIF
-			ELSE IF “Keluar”	
-				PRINT “Keluar Dari Aplikasi?”
-					IF jawaban == “Ya”
-						SET “stillhere” with False
+			BACK to SHOW â€œTampiltugasâ€
+ENDIF
+		ELSE IF â€œKeluarâ€	
+				PRINT â€œKeluar Dari Aplikasi?â€
+					IF jawaban == â€œYaâ€
+						SET â€œstillhereâ€ with False
 					ELSE
-						Back To Show “Tampiltugas”
+						Back To Show â€œTampiltugasâ€
 					ENDIF
-       ENDIF
+ENDIF
 ENDWHILE
 					
 
